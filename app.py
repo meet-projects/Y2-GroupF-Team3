@@ -1,16 +1,14 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
-from flask import session as login_session
-import pyrebase
+from flask import Flask, render_template, request
 
-app = Flask(__name__, template_folder='templates', static_folder='static')
-app.config['SECRET_KEY'] = 'super-secret-key'
+app = Flask(__name__)
 
-#Code goes below here
-
-
-
-
-#Code goes above here
-
+@app.route('/')
+def index():
+    # Handle form submission here
+    first_name = request.form.get('first_name')
+    last_name = request.form.get('last_name')
+    email = request.form.get('email')
+    phone = request.form.get('phone')
+    return render_template('index.html')
 if __name__ == '__main__':
     app.run(debug=True)
