@@ -37,6 +37,47 @@ https://templatemo.com/tm-575-leadership-event
   --font-weight-bold:             700;
 }
 
+/* Alumni Network Section */
+.alumni-section {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section-desc {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.alumni-content {
+  padding: 20px;
+}
+
+.btn.custom-btn {
+  background-color: #00a6e4;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn.custom-btn:hover {
+  background-color: #0092c9;
+}
+
+/* Add additional styles as needed for the images/icons and additional details */
+
 body {
     background: var(--white-color);
     font-family: var(--body-font-family); 
