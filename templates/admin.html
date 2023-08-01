@@ -1,17 +1,19 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About the Seminars - Tech2Peace</title>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/css/bootstrap-icons.css" rel="stylesheet">
     <link href="static/css/templatemo-leadership-event.css" rel="stylesheet">
     <link href="static/css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
+      <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a href="/" class="navbar-brand mx-auto mx-lg-0">
@@ -30,27 +32,17 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <main>
-        <section class="about-seminars" id="about">
-            <div class="container">
-                <div class="section-header">
-                    <h2>About the Seminars</h2>
-                </div>
-                <div class="section-content">
-                    <p class="paragraph">Tech2Peace provides one-of-a-kind seminars for young Israeli and Palestinian adults who participate in workshops and training sessions in the fields of technology and entrepreneurship, along with dialogue sessions and extracurricular activities.</p>
-                    <p class="paragraph">Tech2Peace is cultivating a new reality: Palestinians and Israelis innovating together, leveraging the power of the high-tech ecosystem to create a better future for all people living in the region.</p>
-                    <p class="paragraph">Founded in 2017 and the winner of the Israeli President’s ‘Israel Hope’ Award, Tech2Peace has now hosted 17 two-week residential seminars in the Israeli periphery, reaching 450 direct beneficiaries from diverse backgrounds and ideologies that continue to engage in the alumni community, and partnering with a range of institutions, companies, and municipalities, including Google for Startups, Microsoft, MIT (MISTI), and WeWork.</p>
-                </div>
-            </div>
-        </section>
+    </header>    <main>
+        <!-- About Seminars Section -->
+        <!-- Your existing about seminars section code here -->
+        <!-- Admin Login Section -->
         <section class="application-form">
             <div class="container">
                 <div class="section-header">
-                    <h2>Apply Now</h2>
+                    <h2>Host Login</h2>
                 </div>
                 <div class="section-content">
-                    <form action="/apply" method="POST">
+                    <form action="/admin" method="POST">
                         <div class="form-group">
                         <!-- <div class="form-group"> -->
                             <label for="firstname">First Name</label>
@@ -69,22 +61,12 @@
                             <input type="tel" id="phone" name="phone" required>
                         <!-- </div> -->
                         <!-- <div class="form-group"> -->
-                            <label for="age">Age</label>
-                            <input type="number" id="age" name="age" required>
                             <label for="age">Creidt Card</label>
                             <input type="name" id="card" name="card" required> 
                         <!-- </div> -->
                         <!-- <div class="form-group"> -->
-                            <label for="interest">Interest</label>
-                            <select id="interest" name="interest" required>
-                                <option value="tech">Technology</option>
-                                <option value="entrepreneurship">Entrepreneurship</option>
-                                <option value="both">Both</option>
-                            </select>
                         <!-- </div> -->
                         <!-- <div class="form-group"> -->
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
                         <!-- </div> -->
                         <!-- <div class="form-group"> -->
                             <button type="submit">Submit</button>
@@ -93,37 +75,57 @@
                     </form>
                 </div>
             </div>
-        </section>
-        <section class="upcoming-seminars">
+        </section>            <footer class="site-footer">
             <div class="container">
-                <div class="section-header">
-                    <h2>Upcoming Seminars</h2>
-                </div>
-                <div class="section-content">
-                    <div class="seminar">
-                        <h3>May 7-18</h3>
-                        <p>Registration closed</p>
+                <div class="row align-items-center">
+
+                    <div class="col-lg-12 col-12 border-bottom pb-5 mb-5">
+                        <div class="d-flex">
+                            <a href="index.html" class="navbar-brand">
+                                
+                                <a href="template/index.html" class="navbar-brand mx-auto mx-lg-0">
+                                <img src="static/images/2222.png" class="brand-logo"></img>
+                            </a>
+
+                            </a>
+
+                            <ul class="social-icon ms-auto">
+                                <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+
+                                <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                                <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+                                <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="seminar">
-                        <h3>July 31 - August 10</h3>
-                        <p>Registration closed</p>
+
+                    <div class="col-lg-7 col-12">
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Our Story</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Code of Conduct</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy and Terms</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                        </ul>
                     </div>
-                    <div class="seminar">
-                        <h3>August 20-31</h3>
-                        <p>Registration open</p>
+
+                        
+                    <div class="col-lg-5 col-12 ms-lg-auto">
+                        <div class="copyright-text-wrap d-flex align-items-center">
+                            <p class="copyright-text ms-lg-auto me-4 mb-0">Copyright © 2022 Tech2Peace.org 
+                            
+                            <br>All Rights Reserved. 
+                            <a href="#section_1" class="bi-arrow-up arrow-icon custom-link"></a>
+                        </div>
                     </div>
+
                 </div>
             </div>
-        </section>
-
-        <!-- Add more sections for seminar details, requirements, and application form -->
-
-    </main>
-    <footer>
-        <!-- Your footer content here -->
-    </footer>
-
-    <!-- Add the script tags for Bootstrap and other libraries if needed -->
-
+        </footer>
 </body>
+
 </html>
