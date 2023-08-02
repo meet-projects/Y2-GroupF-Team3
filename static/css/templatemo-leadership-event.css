@@ -130,7 +130,8 @@ h5 {
 h6 {
   font-size: var(--h6-font-size);
 }
-
+/* Add margin between the partner logos */
+/* Add margin between the partner logos */
 p {
   color: var(--p-color);
   font-size: var(--p-font-size);
@@ -145,6 +146,11 @@ p {
 /* Make the image smaller */
 .brand-logo {
   width: 300px; /* Adjust the width to your desired size */
+}
+.brand-logo1 {
+  width: 300px;
+  float:right;
+   /* Adjust the width to your desired size */
 }
 
 ul li {
